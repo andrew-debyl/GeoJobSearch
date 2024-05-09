@@ -1,0 +1,45 @@
+.specificjob__wrapper{
+	display: flex;
+	margin: 40px;
+}
+
+.specificjob--jobdisplay {
+	flex: 1;
+  	width: 50%;
+}
+
+.specificjob--map {
+	flex: 1;
+  	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* LOADING STATE */
+.loading--wrapper {
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .loading-animation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .loading-animation svg {
+	animation: spin 1s linear infinite;
+	fill: rgb(129, 59, 195);
+  }
+  
+  @keyframes spin {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }

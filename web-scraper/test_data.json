@@ -1,0 +1,14 @@
+[
+  {
+    "job_title": "Software Engineer",
+    "job_description": "Develop and maintain software applications.",
+    "job_salary": "80000",
+    "job_location": "New York"
+  },
+  {
+    "job_title": "Data Analyst",
+    "job_description": "Analyze data to provide business insights.",
+    "job_salary": "70000",
+    "job_location": "San Francisco"
+  }
+]

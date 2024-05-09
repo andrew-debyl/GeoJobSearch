@@ -1,0 +1,41 @@
+.about__wrapper {
+    display: flex;
+    height: 90vh;
+}
+
+.about__left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.about__right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.about__header-wrapper {
+    margin-bottom: 38px;
+}
+
+.about__para-wrapper {
+    padding-right: 80px;
+}
+
+.about__para {
+    line-height: 1.75;
+    font-size: 18px;
+}
+
+.about__img-wrapper {
+    max-width: 400px;
+}
+
+.about-img {
+    width: 100%;
+}

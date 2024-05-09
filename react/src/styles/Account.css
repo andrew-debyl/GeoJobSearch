@@ -1,0 +1,27 @@
+.account__container {
+    margin: 40px 0;
+}
+
+.account__input--wrapper {
+    margin-top: 20px;
+}
+
+.account__input {
+    margin-left: 6px;
+}
+
+.account--submitbtn {
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: rgb(129, 59, 195);
+    color: white;
+    padding: 10px 24px;
+    transition: all 300ms ease-in-out;
+    font-size: 16px;
+    margin-top: 20px;
+    border-color: rgb(129, 59, 195);
+}
+
+.account--submitbtn:hover {
+    background-color: rgb(176, 112, 235);
+}

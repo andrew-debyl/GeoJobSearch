@@ -1,0 +1,116 @@
+.jobboard-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 140px 20px 140px;
+}
+
+.jobboard__container--wrapper {
+  width: 50%;
+  display: flex;
+}
+
+.jobboard__heading-wrapper {
+  display: flex;
+  margin: 36px 160px 0 160px;
+  justify-content: space-between;
+}
+
+.jobboard__search-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.jobboard--search {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 6px 28px;
+  background-color: rgb(129, 59, 195);
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: all 300ms ease;
+  font-size: larger;
+}
+
+.jobboard--search:hover {
+  transform: scale(1.1);
+  background-color: rgb(176, 112, 235);
+}
+
+.jobboard__filter-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.showing-results {
+  text-align: left;
+  margin-left: 160px;
+}
+
+.showing-results--text {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.jobboard--input {
+  width: 100%;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.filter-text {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.filter {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 6px 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobboard-icon {
+  margin-top: 2px;
+}
+
+.jobboard__link {
+  text-decoration: none;
+  color: black;
+}
+
+/* LOADING STATE */
+.jobboard-wrapper--skeleton {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-animation svg {
+  animation: spin 1s linear infinite;
+  fill: rgb(129, 59, 195);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
